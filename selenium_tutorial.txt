@@ -1,0 +1,12 @@
+
+instalar a última versão do chromedriver (procurar no google repositório)
+
+menu iniciar
+digite chrome no buscardor
+botão direito, abrir local do arquivo
+vai te levar para o atalho:
+clique com o botão direito em cima do atalho
+abrir local do arquivo
+abra outra instância do cmd e digite: cd C:\Program Files\Google\Chrome\Application
+após criar um novo diretório: "C:\Users\samsung\Desktop\driver\chromedriver-win64\chromedriver-win64\chromeprofile"
+no diretorio digite este comando: chrome.exe --remote-debugging-port=8989 --user-data-dir="C:\Users\samsung\Desktop\driver\chromedriver-win64\chromedriver-win64\chromeprofile"
